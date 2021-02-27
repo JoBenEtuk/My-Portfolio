@@ -993,6 +993,11 @@ input::-moz-focus-inner {
   font-family: "poppins-regular", sans-serif;
   color: #888888;
 }
+.stats-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /**
  * skillbars - (_skillbars.scss)
@@ -2619,6 +2624,9 @@ footer a:focus {
 }
 footer .row {
   max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer .social {
   text-align: right;
