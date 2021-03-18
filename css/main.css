@@ -1008,23 +1008,22 @@ input::-moz-focus-inner {
   margin: 6rem 0 3rem;
 }
 .skill-bars li {
-  height: 0.6rem;
-  background: #a1a1a1;
+  border-bottom: 0.6rem solid #a1a1a1;
   width: 100%;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding: 0;
-  position: relative;
 }
 .skill-bars li strong {
-  position: absolute;
-  left: 0;
-  top: -3rem;
   font-family: "poppins-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1.5rem;
   line-height: 2.4rem;
+}
+.skill-bars li svg {
+  position: relative;
+  top: 4px;
 }
 .skill-bars li .progress {
   background: #313131;
