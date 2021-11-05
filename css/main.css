@@ -570,7 +570,6 @@ select {
   padding: 1.5rem 0;
   border: 0;
   outline: none;
-  vertical-align: middle;
   color: #313131;
   font-family: "poppins-regular", sans-serif;
   font-size: 1.5rem;
@@ -2720,3 +2719,7 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.col-four.tab-full > p > a {
+  color: #6e6e6e;
+}
